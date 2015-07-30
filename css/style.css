@@ -311,7 +311,7 @@ padding:4em 0;
 }
 .news-grid p{
   font-size: 1em;
- margin-bottom: 1em;
+  margin-bottom: 1em;
   color: #999;
   line-height: 1.8em;
 }
@@ -319,9 +319,9 @@ a.button {
   font-size: 1.2em;
   padding: 0.5em 1em;
   background:#f2af00;
-  width: 35%;
-   margin-top: 1.5em;
-   display:block;
+  width: 45%;
+  margin-top: 1.5em;
+  display:block;
   color: #fff;
   text-decoration: none;
   text-transform: capitalize;
