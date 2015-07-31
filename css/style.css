@@ -144,10 +144,10 @@ span.menu {
 .header-grid img {
   margin: 0 auto;
   border-radius: 50%;
-  border: 5px solid #eee;
-  padding: 1em 1em;
+  border: 5px solid rgba(0,0,0,.5);
+  /*padding: 1em 1em;*/
   height:146px;
-  widows: 146px;
+  width: 146px;
 }
 .header-grid h4 {
   font-size: 1.4em;
