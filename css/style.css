@@ -32,7 +32,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 .header {
-  background: url("../images/banner.jpg")no-repeat 0px 0px;
+  background: url("../images/logo/logolig.jpg")no-repeat 0px 0px;
   background-size:cover;
   min-height: 790px;
   text-align: center;
@@ -46,8 +46,8 @@ body{
   background: rgba(0, 0, 0, 0.41);
 }
 .logo {
-  border-top: 2px solid #fff;
-  border-bottom: 2px solid #fff;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
   width: 40%;
   margin: 7em auto 0;
 }
@@ -55,7 +55,7 @@ body{
   font-size: 3em;
   text-transform: capitalize;
   text-decoration: none;
-  color:#fff;
+  color:#000;
   font-family: 'Lobster', cursive;
 }
 .logo-img img{
@@ -63,8 +63,6 @@ body{
   width: 200px;
   height: 70px;
   margin-top: 20px;
-  border-bottom-left-radius: 40px;
-  border-top-right-radius: 40px;
   padding:5px;
 }
 .top-menu {
@@ -145,9 +143,11 @@ span.menu {
 }
 .header-grid img {
   margin: 0 auto;
-  border-radius: 73px;
-  border: 9px solid #eee;
+  border-radius: 50%;
+  border: 5px solid #eee;
   padding: 1em 1em;
+  height:146px;
+  widows: 146px;
 }
 .header-grid h4 {
   font-size: 1.4em;
@@ -215,8 +215,10 @@ span.menu {
 .service-grid img {
   margin: 0 auto;
   background:#16A667;
-  padding: 0.5em 1em;
+  /*padding: 0.5em 1em;*/
   border-radius: 10px;
+  width:98px;
+  height: 85px;
 }
 .service-grid img:hover {
   background: #f2af00;
@@ -230,7 +232,7 @@ span.menu {
 .service-grid p {
   font-size: 1em;
   padding: 1em 0;
-  color: #999;
+  color: #000;
   line-height: 1.8em;
 }
 .work-section {
@@ -312,7 +314,7 @@ padding:4em 0;
 .news-grid p{
   font-size: 1em;
   margin-bottom: 1em;
-  color: #999;
+  color: #000;
   line-height: 1.8em;
 }
 a.button {
@@ -372,7 +374,7 @@ a.button {
 }
 .categories-section {
   padding: 4em 0;
-  background:#3f454d;
+  background:green;
 }
 .cat h3 {
   font-size: 2.5em;
@@ -385,7 +387,7 @@ a.button {
 .cat ul li {
   font-size: 1em;
   line-height: 1.8em;
-  color: #999;
+  color: #000;
   list-style: none;
   padding: 6px 24px;
   background: url(../images/list-arrow.png) no-repeat 0px 15px;
@@ -430,7 +432,7 @@ a.button {
 .up-text p {
   font-size: 1em;
   line-height:1.8em;
-  color:#999;
+  color:#000;
 }
 .cont-title{
   font-size: 3em;
@@ -475,14 +477,14 @@ a.button {
 }
 .cont ul li p {
   font-size: 1em;
-  color: #999;
+  color: #000;
 }
 .cont ul li a {
   width: 100%;
   display: block;
   font-size: 1em;
   text-decoration: none;
-  color:#999;
+  color:#000;
 }
 .cont ul li a:hover{
 color:#f2af00;

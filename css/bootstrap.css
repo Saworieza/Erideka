@@ -120,13 +120,13 @@ hr {
 }
 hr::after {
     position: absolute;
-    width: 14px;
-    height: 14px;
+    width: 11px;
+    height: 11px;
     content: "";
-    bottom: -5px;
+    bottom: -4px;
     left: 50%;
     margin-left: -5px;
-    background-color: #8B8B8B;
+    background-color: #000;
     transform: rotate(45deg);
   }
 pre {
@@ -1157,7 +1157,7 @@ img {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height: 280px;
 }
 .img-rounded {
   border-radius: 6px;
@@ -1182,7 +1182,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #8B8B8B;
+  border-top: 1px solid #000;
 }
 .sr-only {
   position: absolute;
